@@ -1,0 +1,114 @@
+
+body,
+h1,
+h2,
+p ,li{
+    margin: 0;
+    padding: 7px;
+    word-spacing: 4px;
+    text-indent: 4px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white
+}
+
+header {
+    background-image: url(vill\ 2\ img.jpeg);
+    height: 100px;
+    width:100%;
+    background-repeat: repeat-x;
+    color: #fff;
+    padding: 10px;
+    text-align: center; 
+   h1{
+    color: aqua; text-shadow: 9px 3px 4px red, 5px 4px 3px rgb(221, 166, 13);
+text-decoration:underline 
+
+}
+
+}
+
+nav {
+    padding: 5px;
+    background-color: #323435ea;
+    text-align: center;
+    a:hover{color: #007BFF;}
+    a:visited{color: rgb(11, 224, 29);}
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  
+}
+
+section {
+    padding: 20px;
+    ul{text-align: left;}
+}
+
+footer {
+   background-image: url(vill\ img.jpeg);
+   height:120px;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for the homepage section */
+#home {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Style for section headings */
+h2 {
+    color: #2b2c25;
+}
+
+/* Style for paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Style for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+
+    footer {
+        position: static;
+    }
+}
+.background{
+    height: 100px;
+    width: 100px;
+}
+h2{background-color: #c2b0df;}
+h3{text-align:center;
+text-decoration: underline;
+color: green;}
